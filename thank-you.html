@@ -181,6 +181,38 @@
                 window.location.href = 'index.html';
             }
         }, 1000);
+
+        // Netlify-compatible JavaScript form handler
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    const form = e.target;
+                    const data = new FormData(form);
+                    
+                    // Required for Netlify Forms to work via JS
+                    data.append("form-name", form.getAttribute("name"));
+                    
+                    try {
+                        await fetch("/", {
+                            method: "POST",
+                            body: data,
+                        });
+                        
+                        // Show thank you popup instead of redirecting
+                        if (typeof showThankYouPopup === 'function') {
+                            showThankYouPopup();
+                        } else {
+                            window.location.href = "/thank-you.html";
+                        }
+                    } catch (error) {
+                        alert("Form submission failed. Please try again.");
+                    }
+                });
+            }
+        });
     </script>
 </body>
 </html>
