@@ -124,8 +124,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(event) {
-            // Let Netlify handle the form submission naturally
-            // Only add client-side validation and UI feedback
+            // Prevent default form submission
+            event.preventDefault();
             
             // Validate required fields
             let isValid = true;
@@ -176,7 +176,6 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!messageField.value.trim()) setError(messageField, 'Message is required'); else clearError(messageField);
 
             if (!isValid) {
-                event.preventDefault();
                 // Scroll to first error
                 const firstError = contactForm.querySelector('.error');
                 if (firstError) {
@@ -190,24 +189,22 @@ document.addEventListener('DOMContentLoaded', function() {
             const originalText = submitBtn.innerHTML;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitBtn.disabled = true;
-
-            // Prevent default form submission and handle it manually
-            event.preventDefault();
             
             // Prepare form data for Netlify
-            const formData = new FormData(contactForm);
-            formData.set('form-name', 'contact');
-
+            const data = new FormData(contactForm);
+            
+            // Required for Netlify Forms to work via JS
+            data.append("form-name", contactForm.getAttribute("name"));
+            
             // Submit to Netlify
             fetch('/', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
+                body: data
             })
             .then(response => {
                 if (response.ok) {
-                    showThankYouPopup();
-                    contactForm.reset();
+                    // Redirect to thank you page
+                    window.location.href = "/thank-you.html";
                 } else {
                     throw new Error('Form submission failed');
                 }
@@ -215,35 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => {
                 console.error('Form submission error:', error);
                 // Show a more user-friendly error message
-                const errorPopup = document.createElement('div');
-                errorPopup.className = 'thank-you-popup';
-                errorPopup.innerHTML = `
-                    <div class="thank-you-content">
-                        <div class="thank-you-icon" style="color: var(--color-danger);">
-                            <i class="fas fa-exclamation-triangle"></i>
-                        </div>
-                        <h3>Submission Error</h3>
-                        <p>There was a problem submitting your form. Please try again or contact us directly at support@zerospectre.com</p>
-                        <div class="popup-actions">
-                            <button class="btn-primary close-popup">Close</button>
-                            <a href="mailto:support@zerospectre.com" class="btn-secondary">Email Us</a>
-                        </div>
-                    </div>
-                `;
-                document.body.appendChild(errorPopup);
-                setTimeout(() => errorPopup.classList.add('active'), 10);
-                
-                // Close functionality
-                errorPopup.querySelector('.close-popup').onclick = () => {
-                    errorPopup.classList.remove('active');
-                    setTimeout(() => document.body.removeChild(errorPopup), 300);
-                };
-                errorPopup.onclick = e => {
-                    if (e.target === errorPopup) {
-                        errorPopup.classList.remove('active');
-                        setTimeout(() => document.body.removeChild(errorPopup), 300);
-                    }
-                };
+                alert("Form submission failed. Please try again.");
             })
             .finally(() => {
                 // Reset button
