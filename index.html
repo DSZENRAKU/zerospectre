@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerospectre - Securing Tomorrow, Today</title>
+    <meta name="description" content="Zerospectre is a leading cybersecurity firm providing penetration testing, network security, cloud security, cyber risk assessment, and incident response services.">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Zerospectre - Cybersecurity Experts">
+    <meta property="og:description" content="Protecting your digital assets with cutting-edge cybersecurity solutions.">
+    <meta property="og:image" content="assets/zerospectre-logo.png.png">
+    <meta property="og:url" content="https://zerospectre.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zerospectre - Cybersecurity Experts">
+    <meta name="twitter:description" content="Protecting your digital assets with cutting-edge cybersecurity solutions.">
+    <meta name="twitter:image" content="assets/zerospectre-logo.png.png">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Zerospectre",
+      "url": "https://zerospectre.com",
+      "logo": "assets/zerospectre-logo.png.png",
+      "description": "Leading cybersecurity firm providing comprehensive digital protection services.",
+      "founder": {
+        "@type": "Person",
+        "name": "Tejas Akhare",
+        "jobTitle": "Founder and CEO",
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "IIT",
+            "department": "AI & DATA SCIENCE"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "MCA"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "PharmD"
+          }
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Cyber Street",
+        "addressLocality": "Tech City",
+        "addressRegion": "TC",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-703-555-0123",
+          "contactType": "customer service"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91 9420061621",
+          "contactType": "mobile"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/zerospectre-logo.png.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+            <div class="cookie-buttons">
+                <button id="cookieAccept" class="btn-primary">Accept</button>
+                <button id="cookieDecline" class="btn-secondary">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="logo-container">
+                        <img src="assets/zerospectre-logo.png.png" alt="Zerospectre Logo">
+                        <div class="logo-text">
+                            <span class="company-name">Zerospectre</span>
+                            <span class="company-slogan">Securing Tomorrow.Today</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-mobile">
+                    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="mobile-menu" id="mobileMenu">
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="particle-background" id="particles-js"></div>
+            <div class="container">
+                <div class="hero-content" data-aos="fade-up">
+                    <h1>Zerospectre: Trust, Defend, Evolve.</h1>
+                    <p>Securing Tomorrow, Today. We provide cutting-edge cybersecurity solutions to protect your digital assets.</p>
+                    <div class="hero-cta">
+                        <a href="contact.html" class="btn-primary">Get a Free Audit</a>
+                        <a href="services.html" class="btn-secondary">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-brief">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Who We Are</h2>
+                    <p>Digital Trust Forged in Legacy</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <p>Zerospectre is a leading cybersecurity firm dedicated to protecting businesses from evolving digital threats. Our team of experts combines cutting-edge technology with deep industry knowledge to deliver comprehensive security solutions.</p>
+                        <div class="founder-info">
+                            <h3>Tejas Akhare</h3>
+                            <p class="founder-title">Founder and CEO</p>
+                            <p class="founder-education">IIT (AI & DATA SCIENCE), MCA, PharmD</p>
+                        </div>
+                        <a href="about.html" class="btn-text">Learn More About Us <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="about-image-container" data-aos="fade-left">
+                        <div class="about-image">
+                            <img src="assets/Founder.jpg" alt="Tejas Akhare - Founder and CEO">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview Section -->
+        <section class="services-overview">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Our Services</h2>
+                    <p>Comprehensive Cybersecurity Solutions</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Penetration Testing</h3>
+                        <p>Identify vulnerabilities before hackers do with our thorough penetration testing services.</p>
+                        <a href="services.html#penetration-testing" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Network Security</h3>
+                        <p>Protect your network infrastructure with advanced monitoring and defense systems.</p>
+                        <a href="services.html#network-security" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Security</h3>
+                        <p>Secure your cloud environments with our specialized cloud security solutions.</p>
+                        <a href="services.html#cloud-security" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Cyber Risk Assessment</h3>
+                        <p>Evaluate and mitigate your organization's cybersecurity risks with our comprehensive assessments.</p>
+                        <a href="services.html#risk-assessment" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="service-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h3>Incident Response</h3>
+                        <p>Rapid and effective response to security incidents to minimize damage and recovery time.</p>
+                        <a href="services.html#incident-response" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients & Partners Section -->
+        <section class="clients-partners">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Trusted By</h2>
+                    <p>Our Clients & Partners</p>
+                </div>
+                <div class="partner-grid" data-aos="fade-up">
+                    <div class="partner-box">
+                        <div class="partner-logo">
+                            <img src="assets/Google_2015_logo.svg.webp" alt="Google Logo">
+                        </div>
+                        <h4>Google</h4>
+                        <p>Strategic Technology Partner</p>
+                    </div>
+                    <div class="partner-box">
+                        <div class="partner-logo">
+                            <img src="assets/IBM.svg" alt="IBM Logo">
+                        </div>
+                        <h4>IBM</h4>
+                        <p>Security Solutions Partner</p>
+                    </div>
+                    <div class="partner-box">
+                        <div class="partner-logo">
+                            <img src="assets/Hackerone.png" alt="Hackerone Logo">
+                        </div>
+                        <h4>HackerOne</h4>
+                        <p>Vulnerability Management</p>
+                    </div>
+                    <div class="partner-box">
+                        <div class="partner-logo">
+                            <img src="assets/crowdstrike-1.svg" alt="Crowdstrike Logo">
+                        </div>
+                        <h4>CrowdStrike</h4>
+                        <p>Endpoint Protection Partner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Client Testimonials</h2>
+                    <p>What Our Clients Say</p>
+                </div>
+                <div class="testimonial-slider" id="testimonialSlider" data-aos="fade-up">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"Zerospectre's penetration testing uncovered critical vulnerabilities that our previous security audits missed. Their team was professional, thorough, and provided clear remediation steps."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Sarah Johnson</h4>
+                                <p>CTO, TechInnovate Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"After experiencing a security breach, we hired Zerospectre for incident response. Their team was on-site within hours, contained the threat, and helped us implement stronger security measures."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Michael Chen</h4>
+                                <p>CISO, Global Finance Group</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"Zerospectre's cloud security assessment was invaluable as we migrated our infrastructure to AWS. They identified potential risks and helped us implement a secure architecture from day one."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>Emily Rodriguez</h4>
+                                <p>VP of Engineering, CloudNative Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button id="prevTestimonial" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-indicators">
+                        <span class="indicator active" data-index="0"></span>
+                        <span class="indicator" data-index="1"></span>
+                        <span class="indicator" data-index="2"></span>
+                    </div>
+                    <button id="nextTestimonial" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content" data-aos="fade-up">
+                    <h2>Ready to Secure Your Digital Assets?</h2>
+                    <p>Get in touch with our security experts for a free consultation.</p>
+                    <a href="contact.html" class="btn-primary">Book a Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                <div class="footer-logo-container">
+                    <img src="assets/zerospectre-logo.png.png" alt="Zerospectre Logo">
+                    <div class="footer-logo-text">
+                        <span class="footer-company-name">Zerospectre</span>
+                        <p>Securing Tomorrow.Today</p>
+                    </div>
+                </div>
+            </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="services.html#penetration-testing">Penetration Testing</a></li>
+                            <li><a href="services.html#network-security">Network Security</a></li>
+                            <li><a href="services.html#cloud-security">Cloud Security</a></li>
+                            <li><a href="services.html#risk-assessment">Cyber Risk Assessment</a></li>
+                            <li><a href="services.html#incident-response">Incident Response</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> 1750 Tysons Boulevard, Suite 1500, McLean, VA 22102</li>
+                            <li><i class="fas fa-phone"></i> +91 9420061621</li>
+                            <li><i class="fas fa-envelope"></i> support@zerospectre.com</li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Zerospectre. All rights reserved.</p>
+                <ul class="legal-links">
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# robots.txt for Zerospectre Cybersecurity
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas if they exist
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://zerospectre.com/sitemap.xml

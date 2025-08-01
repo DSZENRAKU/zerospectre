@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies - Zerospectre</title>
+    <meta name="description" content="Explore real-world cybersecurity success stories and how Zerospectre has helped organizations strengthen their security posture.">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Cybersecurity Case Studies - Zerospectre">
+    <meta property="og:description" content="Real-world examples of how Zerospectre has helped organizations overcome cybersecurity challenges.">
+    <meta property="og:image" content="assets/zerospectre-logo.png.png">
+    <meta property="og:url" content="https://zerospectre.com/case-studies.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cybersecurity Case Studies - Zerospectre">
+    <meta name="twitter:description" content="Real-world examples of how Zerospectre has helped organizations overcome cybersecurity challenges.">
+    <meta name="twitter:image" content="assets/zerospectre-logo.png.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/zerospectre-logo.png.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+            <div class="cookie-buttons">
+                <button id="cookieAccept" class="btn-primary">Accept</button>
+                <button id="cookieDecline" class="btn-secondary">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="logo-container">
+                        <img src="assets/zerospectre-logo.png.png" alt="Zerospectre Logo">
+                        <div class="logo-text">
+                            <span class="company-name">Zerospectre</span>
+                            <span class="company-slogan">Securing Tomorrow.Today</span>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="case-studies.html" class="active">Case Studies</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-mobile">
+                    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="mobile-menu" id="mobileMenu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="case-studies.html" class="active">Case Studies</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Banner -->
+        <section class="page-banner">
+            <div class="container">
+                <div class="banner-content" data-aos="fade-up">
+                    <h1>Case Studies</h1>
+                    <p>Real-world examples of how we've helped organizations overcome cybersecurity challenges.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Filter -->
+        <section class="case-studies-filter">
+            <div class="container">
+                <div class="filter-container" data-aos="fade-up">
+                    <div class="filter-label">Filter by:</div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="penetration-testing">Penetration Testing</button>
+                        <button class="filter-btn" data-filter="network-security">Network Security</button>
+                        <button class="filter-btn" data-filter="cloud-security">Cloud Security</button>
+                        <button class="filter-btn" data-filter="risk-assessment">Risk Assessment</button>
+                        <button class="filter-btn" data-filter="incident-response">Incident Response</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Grid -->
+        <section class="case-studies-grid">
+            <div class="container">
+                <div class="case-studies-container">
+                    <!-- Case Study 1 -->
+                    <div class="case-study-card" data-category="cloud-security" data-aos="fade-up">
+                        <div class="case-study-image">
+                            <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="600" height="400" fill="#2c3e50"/>
+                                
+                                <!-- Bank/Financial Building -->
+                                <rect x="150" y="100" width="300" height="200" fill="#3498db"/>
+                                
+                                <!-- Building columns -->
+                                <rect x="170" y="100" width="20" height="200" fill="#2980b9"/>
+                                <rect x="240" y="100" width="20" height="200" fill="#2980b9"/>
+                                <rect x="340" y="100" width="20" height="200" fill="#2980b9"/>
+                                <rect x="410" y="100" width="20" height="200" fill="#2980b9"/>
+                                
+                                <!-- Building roof -->
+                                <polygon points="150,100 300,50 450,100" fill="#34495e"/>
+                                
+                                <!-- Steps -->
+                                <rect x="200" y="300" width="200" height="10" fill="#34495e"/>
+                                <rect x="210" y="310" width="180" height="10" fill="#34495e"/>
+                                <rect x="220" y="320" width="160" height="10" fill="#34495e"/>
+                                
+                                <!-- Digital security elements -->
+                                <circle cx="300" cy="150" r="40" fill="#e74c3c" opacity="0.8"/>
+                                <text x="300" y="155" font-family="Arial" font-size="12" fill="white" text-anchor="middle">SECURE</text>
+                                
+                                <!-- Lock icon -->
+                                <rect x="280" y="200" width="40" height="30" rx="5" fill="#f1c40f"/>
+                                <rect x="290" y="190" width="20" height="15" rx="5" fill="#f1c40f"/>
+                                
+                                <!-- Digital circuit pattern -->
+                                <line x1="100" y1="350" x2="500" y2="350" stroke="#ecf0f1" stroke-width="2" stroke-dasharray="10,5"/>
+                                <line x1="150" y1="370" x2="450" y2="370" stroke="#ecf0f1" stroke-width="2" stroke-dasharray="10,5"/>
+                                
+                                <!-- Title -->
+                                <text x="300" y="50" font-family="Arial" font-size="24" fill="white" text-anchor="middle">FINANCIAL SERVICES</text>
+                                <text x="300" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">SECURITY CASE STUDY</text>
+                            </svg>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-tag">Cloud Security</div>
+                            <h2>Securing Cloud Migration for Financial Services Firm</h2>
+                            <p>A leading financial services company needed to migrate their infrastructure to the cloud while maintaining strict security and compliance requirements.</p>
+                            <div class="case-study-highlights">
+                                <div class="highlight">
+                                    <span class="highlight-label">Challenge:</span>
+                                    <span class="highlight-text">Secure migration of sensitive financial data to AWS while maintaining regulatory compliance.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Solution:</span>
+                                    <span class="highlight-text">Implemented secure cloud architecture with encryption, access controls, and continuous monitoring.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Result:</span>
+                                    <span class="highlight-text">Successful migration with zero security incidents and full compliance with financial regulations.</span>
+                                </div>
+                            </div>
+                            <a href="case-study-financial-cloud.html" class="btn-text">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 2 -->
+                    <div class="case-study-card" data-category="penetration-testing" data-aos="fade-up">
+                        <div class="case-study-image">
+                            <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="600" height="400" fill="#e74c3c"/>
+                                
+                                <!-- Hospital building -->
+                                <rect x="150" y="100" width="300" height="200" fill="white"/>
+                                
+                                <!-- Hospital cross -->
+                                <rect x="280" y="120" width="40" height="100" fill="#3498db"/>
+                                <rect x="250" y="150" width="100" height="40" fill="#3498db"/>
+                                
+                                <!-- Windows -->
+                                <rect x="180" y="130" width="30" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+                                <rect x="180" y="180" width="30" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+                                <rect x="180" y="230" width="30" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+                                
+                                <rect x="390" y="130" width="30" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+                                <rect x="390" y="180" width="30" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+                                <rect x="390" y="230" width="30" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+                                
+                                <!-- Entrance -->
+                                <rect x="270" y="250" width="60" height="50" fill="#34495e"/>
+                                
+                                <!-- Security elements -->
+                                <circle cx="150" cy="100" r="30" fill="#2c3e50" opacity="0.8"/>
+                                <text x="150" y="105" font-family="Arial" font-size="12" fill="white" text-anchor="middle">SECURE</text>
+                                
+                                <circle cx="450" cy="100" r="30" fill="#2c3e50" opacity="0.8"/>
+                                <text x="450" y="105" font-family="Arial" font-size="12" fill="white" text-anchor="middle">TESTED</text>
+                                
+                                <!-- Penetration testing elements -->
+                                <path d="M100,350 L120,320 L140,350 L160,320 L180,350" stroke="#2c3e50" stroke-width="3" fill="none"/>
+                                <path d="M420,350 L440,320 L460,350 L480,320 L500,350" stroke="#2c3e50" stroke-width="3" fill="none"/>
+                                
+                                <!-- Shield with magnifying glass -->
+                                <path d="M300,320 L330,330 L330,360 L300,370 L270,360 L270,330 Z" fill="#f1c40f" stroke="#2c3e50" stroke-width="2"/>
+                                <circle cx="310" cy="340" r="15" fill="none" stroke="#2c3e50" stroke-width="3"/>
+                                <line x1="320" y1="350" x2="330" y2="360" stroke="#2c3e50" stroke-width="3"/>
+                                
+                                <!-- Title -->
+                                <text x="300" y="50" font-family="Arial" font-size="24" fill="white" text-anchor="middle">HEALTHCARE</text>
+                                <text x="300" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">PENETRATION TESTING</text>
+                            </svg>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-tag">Penetration Testing</div>
+                            <h2>Critical Vulnerabilities Discovered in E-commerce Platform</h2>
+                            <p>A major e-commerce retailer with millions of customers needed to ensure their platform was secure against sophisticated attacks.</p>
+                            <div class="case-study-highlights">
+                                <div class="highlight">
+                                    <span class="highlight-label">Challenge:</span>
+                                    <span class="highlight-text">Identify security vulnerabilities in a complex e-commerce platform handling sensitive payment data.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Solution:</span>
+                                    <span class="highlight-text">Comprehensive penetration testing of web applications, APIs, and payment processing systems.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Result:</span>
+                                    <span class="highlight-text">Discovered and remediated 12 critical vulnerabilities before they could be exploited by attackers.</span>
+                                </div>
+                            </div>
+                            <a href="case-study-ecommerce-pentest.html" class="btn-text">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 3 -->
+                    <div class="case-study-card" data-category="incident-response" data-aos="fade-up">
+                        <div class="case-study-image">
+                            <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="600" height="400" fill="#3498db"/>
+                                
+                                <!-- E-commerce store front -->
+                                <rect x="150" y="100" width="300" height="200" fill="white"/>
+                                
+                                <!-- Store sign -->
+                                <rect x="200" y="120" width="200" height="40" fill="#f1c40f"/>
+                                <text x="300" y="145" font-family="Arial" font-size="16" fill="#2c3e50" text-anchor="middle">E-COMMERCE STORE</text>
+                                
+                                <!-- Store window -->
+                                <rect x="200" y="180" width="200" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+                                
+                                <!-- Products in window -->
+                                <rect x="220" y="200" width="30" height="40" fill="#e74c3c"/>
+                                <rect x="270" y="200" width="30" height="40" fill="#2ecc71"/>
+                                <rect x="320" y="200" width="30" height="40" fill="#9b59b6"/>
+                                
+                                <!-- Door -->
+                                <rect x="270" y="270" width="60" height="30" fill="#34495e"/>
+                                
+                                <!-- Incident response elements -->
+                                <circle cx="300" cy="50" r="30" fill="#e74c3c"/>
+                                <text x="300" y="55" font-family="Arial" font-size="20" fill="white" text-anchor="middle">!</text>
+                                
+                                <!-- Response arrows -->
+                                <path d="M100,200 L130,200 L130,170 L150,200 L130,230 L130,200" fill="#2ecc71"/>
+                                <path d="M500,200 L470,200 L470,170 L450,200 L470,230 L470,200" fill="#2ecc71"/>
+                                
+                                <!-- Shield -->
+                                <path d="M300,300 L340,310 L340,350 L300,370 L260,350 L260,310 Z" fill="#9b59b6" stroke="#2c3e50" stroke-width="2"/>
+                                <text x="300" y="340" font-family="Arial" font-size="16" fill="white" text-anchor="middle">IR</text>
+                                
+                                <!-- Digital elements -->
+                                <line x1="100" y1="350" x2="500" y2="350" stroke="white" stroke-width="2" stroke-dasharray="10,5"/>
+                                
+                                <!-- Title -->
+                                <text x="300" y="380" font-family="Arial" font-size="24" fill="white" text-anchor="middle">INCIDENT RESPONSE</text>
+                            </svg>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-tag">Incident Response</div>
+                            <h2>Rapid Response to Ransomware Attack at Healthcare Provider</h2>
+                            <p>A regional healthcare provider experienced a ransomware attack that threatened patient data and critical systems.</p>
+                            <div class="case-study-highlights">
+                                <div class="highlight">
+                                    <span class="highlight-label">Challenge:</span>
+                                    <span class="highlight-text">Contain and eradicate ransomware while minimizing impact on patient care and protecting sensitive health data.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Solution:</span>
+                                    <span class="highlight-text">Rapid deployment of incident response team, isolation of affected systems, and forensic investigation.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Result:</span>
+                                    <span class="highlight-text">Systems restored within 24 hours, no data exfiltration confirmed, and improved security measures implemented.</span>
+                                </div>
+                            </div>
+                            <a href="case-study-healthcare-ransomware.html" class="btn-text">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 4 -->
+                    <div class="case-study-card" data-category="network-security" data-aos="fade-up">
+                        <div class="case-study-image">
+                            <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="600" height="400" fill="#34495e"/>
+                                
+                                <!-- Factory building -->
+                                <rect x="150" y="150" width="300" height="150" fill="#7f8c8d"/>
+                                
+                                <!-- Factory roof -->
+                                <polygon points="150,150 300,100 450,150" fill="#95a5a6"/>
+                                
+                                <!-- Factory windows -->
+                                <rect x="180" y="180" width="30" height="30" fill="#ecf0f1"/>
+                                <rect x="240" y="180" width="30" height="30" fill="#ecf0f1"/>
+                                <rect x="300" y="180" width="30" height="30" fill="#ecf0f1"/>
+                                <rect x="360" y="180" width="30" height="30" fill="#ecf0f1"/>
+                                
+                                <!-- Factory door -->
+                                <rect x="270" y="250" width="60" height="50" fill="#2c3e50"/>
+                                
+                                <!-- Factory chimney -->
+                                <rect x="380" y="80" width="30" height="70" fill="#7f8c8d"/>
+                                
+                                <!-- Network elements -->
+                                <circle cx="200" cy="250" r="20" fill="#3498db"/>
+                                <circle cx="300" cy="250" r="20" fill="#3498db"/>
+                                <circle cx="400" cy="250" r="20" fill="#3498db"/>
+                                
+                                <!-- Network connections -->
+                                <line x1="200" y1="250" x2="300" y2="250" stroke="#2ecc71" stroke-width="3"/>
+                                <line x1="300" y1="250" x2="400" y2="250" stroke="#2ecc71" stroke-width="3"/>
+                                
+                                <!-- Security shield -->
+                                <path d="M300,320 L340,330 L340,360 L300,380 L260,360 L260,330 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+                                <text x="300" y="355" font-family="Arial" font-size="16" fill="white" text-anchor="middle">SECURE</text>
+                                
+                                <!-- Digital circuit pattern -->
+                                <line x1="100" y1="350" x2="500" y2="350" stroke="#ecf0f1" stroke-width="2" stroke-dasharray="10,5"/>
+                                
+                                <!-- Title -->
+                                <text x="300" y="50" font-family="Arial" font-size="24" fill="white" text-anchor="middle">MANUFACTURING</text>
+                                <text x="300" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">NETWORK SECURITY</text>
+                            </svg>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-tag">Network Security</div>
+                            <h2>Securing Industrial Control Systems for Manufacturing Giant</h2>
+                            <p>A global manufacturing company needed to secure their industrial control systems (ICS) against increasing cyber threats.</p>
+                            <div class="case-study-highlights">
+                                <div class="highlight">
+                                    <span class="highlight-label">Challenge:</span>
+                                    <span class="highlight-text">Protect critical manufacturing infrastructure while maintaining operational efficiency.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Solution:</span>
+                                    <span class="highlight-text">Implemented segmented network architecture, ICS-specific monitoring, and secure remote access solutions.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Result:</span>
+                                    <span class="highlight-text">85% reduction in security events with zero impact on production efficiency.</span>
+                                </div>
+                            </div>
+                            <a href="case-study-manufacturing-ics.html" class="btn-text">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 5 -->
+                    <div class="case-study-card" data-category="risk-assessment" data-aos="fade-up">
+                        <div class="case-study-image">
+                            <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="600" height="400" fill="#2c3e50"/>
+                                
+                                <!-- Government building -->
+                                <rect x="150" y="100" width="300" height="200" fill="#ecf0f1"/>
+                                
+                                <!-- Building columns -->
+                                <rect x="170" y="100" width="20" height="200" fill="#bdc3c7"/>
+                                <rect x="230" y="100" width="20" height="200" fill="#bdc3c7"/>
+                                <rect x="290" y="100" width="20" height="200" fill="#bdc3c7"/>
+                                <rect x="350" y="100" width="20" height="200" fill="#bdc3c7"/>
+                                <rect x="410" y="100" width="20" height="200" fill="#bdc3c7"/>
+                                
+                                <!-- Building roof -->
+                                <rect x="130" y="80" width="340" height="20" fill="#bdc3c7"/>
+                                
+                                <!-- Steps -->
+                                <rect x="200" y="300" width="200" height="10" fill="#bdc3c7"/>
+                                <rect x="210" y="310" width="180" height="10" fill="#bdc3c7"/>
+                                <rect x="220" y="320" width="160" height="10" fill="#bdc3c7"/>
+                                
+                                <!-- Risk assessment elements -->
+                                <circle cx="200" cy="150" r="30" fill="#e74c3c" opacity="0.7"/>
+                                <text x="200" y="155" font-family="Arial" font-size="12" fill="white" text-anchor="middle">HIGH</text>
+                                
+                                <circle cx="300" cy="150" r="30" fill="#f39c12" opacity="0.7"/>
+                                <text x="300" y="155" font-family="Arial" font-size="12" fill="white" text-anchor="middle">MEDIUM</text>
+                                
+                                <circle cx="400" cy="150" r="30" fill="#2ecc71" opacity="0.7"/>
+                                <text x="400" y="155" font-family="Arial" font-size="12" fill="white" text-anchor="middle">LOW</text>
+                                
+                                <!-- Risk matrix -->
+                                <rect x="200" y="200" width="200" height="80" fill="white" stroke="#7f8c8d" stroke-width="2"/>
+                                <line x1="200" y1="226" x2="400" y2="226" stroke="#7f8c8d" stroke-width="1"/>
+                                <line x1="200" y1="253" x2="400" y2="253" stroke="#7f8c8d" stroke-width="1"/>
+                                <line x1="266" y1="200" x2="266" y2="280" stroke="#7f8c8d" stroke-width="1"/>
+                                <line x1="333" y1="200" x2="333" y2="280" stroke="#7f8c8d" stroke-width="1"/>
+                                
+                                <!-- Risk cells -->
+                                <rect x="200" y="200" width="66" height="26" fill="#f1c40f" opacity="0.7"/>
+                                <rect x="266" y="200" width="67" height="26" fill="#e67e22" opacity="0.7"/>
+                                <rect x="333" y="200" width="67" height="26" fill="#e74c3c" opacity="0.7"/>
+                                
+                                <rect x="200" y="226" width="66" height="27" fill="#2ecc71" opacity="0.7"/>
+                                <rect x="266" y="226" width="67" height="27" fill="#f1c40f" opacity="0.7"/>
+                                <rect x="333" y="226" width="67" height="27" fill="#e67e22" opacity="0.7"/>
+                                
+                                <rect x="200" y="253" width="66" height="27" fill="#2ecc71" opacity="0.7"/>
+                                <rect x="266" y="253" width="67" height="27" fill="#2ecc71" opacity="0.7"/>
+                                <rect x="333" y="253" width="67" height="27" fill="#f1c40f" opacity="0.7"/>
+                                
+                                <!-- Title -->
+                                <text x="300" y="50" font-family="Arial" font-size="24" fill="white" text-anchor="middle">GOVERNMENT</text>
+                                <text x="300" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">RISK ASSESSMENT</text>
+                            </svg>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-tag">Risk Assessment</div>
+                            <h2>Comprehensive Cyber Risk Assessment for Government Agency</h2>
+                            <p>A government agency needed to evaluate and prioritize cybersecurity risks across their complex IT infrastructure.</p>
+                            <div class="case-study-highlights">
+                                <div class="highlight">
+                                    <span class="highlight-label">Challenge:</span>
+                                    <span class="highlight-text">Assess security risks across diverse systems with limited resources and strict compliance requirements.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Solution:</span>
+                                    <span class="highlight-text">Conducted comprehensive risk assessment using NIST framework with tailored methodology for government systems.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Result:</span>
+                                    <span class="highlight-text">Identified and prioritized 47 security gaps, developed 3-year security roadmap within budget constraints.</span>
+                                </div>
+                            </div>
+                            <a href="case-study-government-risk.html" class="btn-text">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 6 -->
+                    <div class="case-study-card" data-category="cloud-security" data-aos="fade-up">
+                        <div class="case-study-image">
+                            <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="600" height="400" fill="#3498db"/>
+                                
+                                <!-- Cloud shapes -->
+                                <path d="M150,150 C130,130 130,100 150,80 C170,60 210,60 230,80 C250,60 290,60 310,80 C330,60 370,60 390,80 C410,100 410,130 390,150 Z" fill="white"/>
+                                <path d="M200,200 C180,180 180,150 200,130 C220,110 260,110 280,130 C300,110 340,110 360,130 C380,150 380,180 360,200 Z" fill="white"/>
+                                <path d="M250,250 C230,230 230,200 250,180 C270,160 310,160 330,180 C350,200 350,230 330,250 Z" fill="white"/>
+                                
+                                <!-- Server racks in clouds -->
+                                <rect x="180" y="100" width="40" height="60" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+                                <rect x="240" y="100" width="40" height="60" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+                                <rect x="300" y="100" width="40" height="60" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+                                <rect x="360" y="100" width="40" height="60" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+                                
+                                <!-- Server lights -->
+                                <circle cx="190" cy="110" r="3" fill="#2ecc71"/>
+                                <circle cx="190" cy="120" r="3" fill="#e74c3c"/>
+                                <circle cx="190" cy="130" r="3" fill="#f1c40f"/>
+                                
+                                <circle cx="250" cy="110" r="3" fill="#2ecc71"/>
+                                <circle cx="250" cy="120" r="3" fill="#e74c3c"/>
+                                <circle cx="250" cy="130" r="3" fill="#f1c40f"/>
+                                
+                                <circle cx="310" cy="110" r="3" fill="#2ecc71"/>
+                                <circle cx="310" cy="120" r="3" fill="#e74c3c"/>
+                                <circle cx="310" cy="130" r="3" fill="#f1c40f"/>
+                                
+                                <circle cx="370" cy="110" r="3" fill="#2ecc71"/>
+                                <circle cx="370" cy="120" r="3" fill="#e74c3c"/>
+                                <circle cx="370" cy="130" r="3" fill="#f1c40f"/>
+                                
+                                <!-- Security elements -->
+                                <path d="M300,280 L340,290 L340,330 L300,350 L260,330 L260,290 Z" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+                                <text x="300" y="320" font-family="Arial" font-size="16" fill="white" text-anchor="middle">SECURE</text>
+                                
+                                <!-- Connection lines -->
+                                <line x1="200" y1="300" x2="280" y2="320" stroke="white" stroke-width="2" stroke-dasharray="5,5"/>
+                                <line x1="400" y1="300" x2="320" y2="320" stroke="white" stroke-width="2" stroke-dasharray="5,5"/>
+                                
+                                <!-- Title -->
+                                <text x="300" y="50" font-family="Arial" font-size="24" fill="white" text-anchor="middle">TECHNOLOGY</text>
+                                <text x="300" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">CLOUD SECURITY</text>
+                            </svg>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-tag">Cloud Security</div>
+                            <h2>Building Security from the Ground Up for SaaS Startup</h2>
+                            <p>A fast-growing SaaS startup needed to implement robust security practices without slowing down their development pace.</p>
+                            <div class="case-study-highlights">
+                                <div class="highlight">
+                                    <span class="highlight-label">Challenge:</span>
+                                    <span class="highlight-text">Implement security best practices in a cloud-native environment while maintaining rapid development cycles.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Solution:</span>
+                                    <span class="highlight-text">Developed DevSecOps approach with automated security testing, secure CI/CD pipelines, and developer training.</span>
+                                </div>
+                                <div class="highlight">
+                                    <span class="highlight-label">Result:</span>
+                                    <span class="highlight-text">Successfully achieved SOC 2 compliance in record time while maintaining bi-weekly release schedule.</span>
+                                </div>
+                            </div>
+                            <a href="case-study-saas-security.html" class="btn-text">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Summary Section -->
+        <section class="results-summary">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Our Impact</h2>
+                    <p>Measurable Security Improvements</p>
+                </div>
+                <div class="results-grid">
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="result-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="result-number">500+</div>
+                        <div class="result-text">Critical Vulnerabilities Remediated</div>
+                    </div>
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="result-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="result-number">75%</div>
+                        <div class="result-text">Average Reduction in Security Incidents</div>
+                    </div>
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="result-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="result-number">4hr</div>
+                        <div class="result-text">Average Incident Response Time</div>
+                    </div>
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="result-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="result-number">100+</div>
+                        <div class="result-text">Organizations Protected</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="case-study-testimonial">
+            <div class="container">
+                <div class="testimonial-container" data-aos="fade-up">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <blockquote>
+                            Zerospectre's team went above and beyond during our security crisis. Their rapid response and expertise not only contained the incident but strengthened our overall security posture. We now consider them an essential partner in our cybersecurity strategy.
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <h4>David Chen</h4>
+                            <p>CIO, Global Healthcare Provider</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content" data-aos="fade-up">
+                    <h2>Ready to Become Our Next Success Story?</h2>
+                    <p>Contact us today to discuss your cybersecurity challenges.</p>
+                    <a href="contact.html" class="btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-logo-container">
+                        <img src="assets/zerospectre-logo.png.png" alt="Zerospectre Logo">
+                        <div class="footer-logo-text">
+                            <span class="footer-company-name">Zerospectre</span>
+                            <p>Securing Tomorrow.Today</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="services.html#penetration-testing">Penetration Testing</a></li>
+                            <li><a href="services.html#network-security">Network Security</a></li>
+                            <li><a href="services.html#cloud-security">Cloud Security</a></li>
+                            <li><a href="services.html#risk-assessment">Cyber Risk Assessment</a></li>
+                            <li><a href="services.html#incident-response">Incident Response</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> 1750 Tysons Boulevard, Suite 1500, McLean, VA 22102</li>
+                            <li><i class="fas fa-phone"></i> +91 9420061621</li>
+                            <li><i class="fas fa-envelope"></i> support@zerospectre.com</li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Zerospectre. All rights reserved.</p>
+                <ul class="legal-links">
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

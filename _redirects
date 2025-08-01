@@ -1,0 +1,4 @@
+# Force HTTPS
+http://zerospectre.com/*    https://zerospectre.com/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.com/:splat    301!
+/*    https://zerospectre.com/:splat    301!
