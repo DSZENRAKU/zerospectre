@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zerospectre.com/</loc>
+    <loc>https://zerospectre.space/</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/about.html</loc>
+    <loc>https://zerospectre.space/about.html</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/services.html</loc>
+    <loc>https://zerospectre.space/services.html</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/case-studies.html</loc>
+    <loc>https://zerospectre.space/case-studies.html</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/case-study.html</loc>
+    <loc>https://zerospectre.space/case-study.html</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/blog.html</loc>
+    <loc>https://zerospectre.space/blog.html</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/blog-post.html</loc>
+    <loc>https://zerospectre.space/blog-post.html</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/contact.html</loc>
+    <loc>https://zerospectre.space/contact.html</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zerospectre.com/robots.txt</loc>
+    <loc>https://zerospectre.space/robots.txt</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
