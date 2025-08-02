@@ -1,0 +1,27 @@
+<!-- This file is used to help Netlify detect forms during build time -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netlify Form Detection</title>
+</head>
+<body>
+    <!-- Hidden contact form for Netlify to detect during build -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="tel" name="phone" />
+        <select name="serviceType">
+            <option value="penetration-testing">Penetration Testing</option>
+            <option value="network-security">Network Security Assessment</option>
+            <option value="cloud-security">Cloud Security</option>
+            <option value="risk-assessment">Cyber Risk Assessment</option>
+            <option value="incident-response">Incident Response</option>
+            <option value="security-consulting">Security Consulting</option>
+            <option value="compliance-audit">Compliance Audit</option>
+            <option value="security-training">Security Training</option>
+            <option value="other">Other</option>
+        </select>
+        <textarea name="message"></textarea>
+    </form>
+</body>
+</html>

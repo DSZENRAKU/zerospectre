@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You - Zerospectre</title>
-    <meta name="description" content="Thank you for contacting Zerospectre. Our cybersecurity experts will be in touch soon.">
+    <title>Thank You for Contacting Zerospectre | Cybersecurity Experts</title>
+    <meta name="description" content="Thank you for reaching out to Zerospectre. Our cybersecurity and digital services team led by Tejas Akhare will contact you shortly.">
+    <meta name="keywords" content="cybersecurity services, ethical hacking, SEO services, web development, Tejas Akhare, Nanded, thank you page, contact confirmation">
     
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Thank You - Zerospectre">
-    <meta property="og:description" content="Thank you for contacting Zerospectre. Our cybersecurity experts will be in touch soon.">
+    <meta property="og:title" content="Thank You for Contacting Zerospectre | Cybersecurity Experts">
+    <meta property="og:description" content="Thank you for reaching out to Zerospectre. Our cybersecurity and digital services team led by Tejas Akhare will contact you shortly.">
     <meta property="og:image" content="assets/zerospectre-logo.png.png">
-    <meta property="og:url" content="https://zerospectre.com/thank-you.html">
+    <meta property="og:url" content="https://zerospectre.space/thank-you.html">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Thank You - Zerospectre">
-    <meta name="twitter:description" content="Thank you for contacting Zerospectre. Our cybersecurity experts will be in touch soon.">
+    <meta name="twitter:title" content="Thank You for Contacting Zerospectre | Cybersecurity Experts">
+    <meta name="twitter:description" content="Thank you for reaching out to Zerospectre. Our cybersecurity and digital services team led by Tejas Akhare will contact you shortly.">
     <meta name="twitter:image" content="assets/zerospectre-logo.png.png">
     
     <!-- Favicon -->
@@ -156,6 +157,18 @@
             <a href="index.html" class="btn-primary">Return to Home</a>
             <a href="services.html" class="btn-secondary">Explore Services</a>
         </div>
+        
+        <!-- Fighting Fake Content Section -->
+        <div class="fake-content-alert" style="margin-top: 3rem; max-width: 800px; text-align: left;">
+            <h2 style="text-align: center;">Our Commitment to Authenticity</h2>
+            <p>At Zerospectre, we take a firm stance against misinformation, scam impersonations, and unauthorized use of our brand. As cybersecurity professionals, we're committed to maintaining the highest standards of integrity and transparency.</p>
+            <ul style="list-style: none; padding-left: 0;">
+                <li style="margin-bottom: 0.5rem;"><i class="fas fa-shield-alt" style="color: var(--color-accent); margin-right: 0.5rem;"></i> <strong>We never request sensitive information</strong> through unsolicited communications.</li>
+                <li style="margin-bottom: 0.5rem;"><i class="fas fa-user-shield" style="color: var(--color-accent); margin-right: 0.5rem;"></i> <strong>We do not engage in unauthorized outreach</strong> or cold-calling campaigns.</li>
+                <li style="margin-bottom: 0.5rem;"><i class="fas fa-lock" style="color: var(--color-accent); margin-right: 0.5rem;"></i> <strong>All official communications</strong> come exclusively through our verified channels.</li>
+            </ul>
+            <p>If you encounter content impersonating Zerospectre or suspicious communications claiming to be from us, please report it immediately to <a href="mailto:security@zerospectre.space">security@zerospectre.space</a>.</p>
+        </div>
     </div>
 
     <!-- JavaScript -->
@@ -182,37 +195,7 @@
             }
         }, 1000);
 
-        // Netlify-compatible JavaScript form handler
-        document.addEventListener('DOMContentLoaded', function() {
-            const contactForm = document.getElementById('contactForm');
-            if (contactForm) {
-                contactForm.addEventListener('submit', async function(e) {
-                    e.preventDefault();
-                    
-                    const form = e.target;
-                    const data = new FormData(form);
-                    
-                    // Required for Netlify Forms to work via JS
-                    data.append("form-name", form.getAttribute("name"));
-                    
-                    try {
-                        await fetch("/", {
-                            method: "POST",
-                            body: data,
-                        });
-                        
-                        // Show thank you popup instead of redirecting
-                        if (typeof showThankYouPopup === 'function') {
-                            showThankYouPopup();
-                        } else {
-                            window.location.href = "/thank-you.html";
-                        }
-                    } catch (error) {
-                        alert("Form submission failed. Please try again.");
-                    }
-                });
-            }
-        });
+        // No custom form handler needed - Netlify handles form submissions natively
     </script>
 </body>
 </html>

@@ -1,0 +1,186 @@
+/* Proof Links Styling */
+.proof-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin: 0 2px;
+    position: relative;
+}
+
+.proof-link:hover {
+    color: var(--color-accent-dark);
+}
+
+.proof-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-accent);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.proof-link:hover::after {
+    transform: scaleX(1);
+}
+
+.proof-link i {
+    font-size: 0.8em;
+    margin-left: 4px;
+}
+
+/* Proof Link Tooltip */
+.proof-link-tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.proof-link-tooltip .tooltip-content {
+    visibility: hidden;
+    width: 250px;
+    background-color: var(--color-dark);
+    color: var(--color-text-light);
+    text-align: center;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -125px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.9rem;
+    box-shadow: var(--shadow-medium);
+}
+
+.proof-link-tooltip .tooltip-content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--color-dark) transparent transparent transparent;
+}
+
+.proof-link-tooltip:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Proof Link Badge */
+.proof-badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(var(--color-accent-rgb), 0.1);
+    color: var(--color-accent);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.proof-badge i {
+    font-size: 0.7rem;
+    margin-right: 4px;
+}
+
+/* Proof Link in Callout Box */
+.proof-callout {
+    background-color: rgba(var(--color-accent-rgb), 0.05);
+    border-left: 4px solid var(--color-accent);
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.proof-callout-title {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--color-accent);
+}
+
+.proof-callout-title i {
+    margin-right: 8px;
+}
+
+.proof-callout-content {
+    font-size: 0.95rem;
+}
+
+.proof-callout-content a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.proof-callout-content a:hover {
+    text-decoration: underline;
+}
+
+/* Proof Link Section */
+.proof-section {
+    background-color: rgba(var(--color-accent-rgb), 0.03);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    margin: 40px 0;
+}
+
+.proof-section-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--color-dark);
+    display: flex;
+    align-items: center;
+}
+
+.proof-section-title i {
+    margin-right: 10px;
+    color: var(--color-accent);
+}
+
+.proof-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.proof-list li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.proof-list li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .proof-link-tooltip .tooltip-content {
+        width: 200px;
+        margin-left: -100px;
+    }
+    
+    .proof-section {
+        padding: 20px;
+    }
+}

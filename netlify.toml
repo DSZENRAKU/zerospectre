@@ -1,0 +1,38 @@
+[build]
+  publish = "./"
+
+# Specify the form handling
+[[plugins]]
+  package = "@netlify/plugin-emails"
+
+# Redirect rules for form submissions
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/form-success"
+  to = "/thank-you.html"
+  status = 200
+  force = true
+
+# Handle form submissions
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+# Form handling settings
+[build.environment]
+  NODE_VERSION = "16.14.0"

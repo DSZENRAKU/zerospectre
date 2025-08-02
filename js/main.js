@@ -124,8 +124,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(event) {
-            // Prevent default form submission
-            event.preventDefault();
+            // Client-side validation only - don't prevent default submission
+            // This allows Netlify to handle the form submission natively
             
             // Validate required fields
             let isValid = true;
@@ -176,6 +176,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!messageField.value.trim()) setError(messageField, 'Message is required'); else clearError(messageField);
 
             if (!isValid) {
+                // Prevent form submission if validation fails
+                event.preventDefault();
+                
                 // Scroll to first error
                 const firstError = contactForm.querySelector('.error');
                 if (firstError) {
@@ -186,39 +189,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Show loading state
             const submitBtn = contactForm.querySelector('button[type="submit"]');
-            const originalText = submitBtn.innerHTML;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitBtn.disabled = true;
             
-            // Prepare form data for Netlify
-            const data = new FormData(contactForm);
-            
-            // Required for Netlify Forms to work via JS
-            data.append("form-name", contactForm.getAttribute("name"));
-            
-            // Submit to Netlify
-            fetch('/', {
-                method: 'POST',
-                body: data
-            })
-            .then(response => {
-                if (response.ok) {
-                    // Redirect to thank you page
-                    window.location.href = "/thank-you.html";
-                } else {
-                    throw new Error('Form submission failed');
-                }
-            })
-            .catch(error => {
-                console.error('Form submission error:', error);
-                // Show a more user-friendly error message
-                alert("Form submission failed. Please try again.");
-            })
-            .finally(() => {
-                // Reset button
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-            });
+            // Let the form submit naturally to Netlify
+            // No preventDefault() or fetch API - Netlify will handle the submission
         });
     }
 });
@@ -496,95 +471,130 @@ function showThankYouPopup() {
  * Initialize particle background effect for hero section
  */
 function initParticleBackground() {
-    const heroSection = document.querySelector('.hero');
+    const particlesElement = document.getElementById('particles-js');
     
-    if (heroSection) {
-        // Create canvas element
-        const canvas = document.createElement('canvas');
-        canvas.className = 'particle-canvas';
-        heroSection.appendChild(canvas);
+    if (particlesElement && typeof particlesJS !== 'undefined') {
+        // Use particles.js library with our configuration
+        particlesJS.load('particles-js', 'js/particles.json', function() {
+            console.log('Particles.js loaded successfully');
+        });
+    } else {
+        // Fallback to custom implementation if particles.js is not available
+        const heroSection = document.querySelector('.hero');
         
-        const ctx = canvas.getContext('2d');
-        let particles = [];
-        
-        // Set canvas size
-        function resizeCanvas() {
-            canvas.width = heroSection.offsetWidth;
-            canvas.height = heroSection.offsetHeight;
-        }
-        
-        resizeCanvas();
-        window.addEventListener('resize', resizeCanvas);
-        
-        // Particle class
-        class Particle {
-            constructor() {
-                this.x = Math.random() * canvas.width;
-                this.y = Math.random() * canvas.height;
-                this.size = Math.random() * 2 + 0.5;
-                this.speedX = Math.random() * 1 - 0.5;
-                this.speedY = Math.random() * 1 - 0.5;
-                this.color = `rgba(0, 255, 240, ${Math.random() * 0.5})`;
+        if (heroSection) {
+            // Create canvas element
+            const canvas = document.createElement('canvas');
+            canvas.className = 'particle-canvas';
+            heroSection.appendChild(canvas);
+            
+            const ctx = canvas.getContext('2d');
+            let particles = [];
+            
+            // Set canvas size
+            function resizeCanvas() {
+                canvas.width = heroSection.offsetWidth;
+                canvas.height = heroSection.offsetHeight;
             }
             
-            update() {
-                this.x += this.speedX;
-                this.y += this.speedY;
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas);
+            
+            // Particle class
+            class Particle {
+                constructor() {
+                    this.x = Math.random() * canvas.width;
+                    this.y = Math.random() * canvas.height;
+                    this.size = Math.random() * 2 + 0.5;
+                    this.speedX = Math.random() * 1 - 0.5;
+                    this.speedY = Math.random() * 1 - 0.5;
+                    this.color = `rgba(0, 255, 240, ${Math.random() * 0.5})`;
+                }
                 
-                // Wrap around edges
-                if (this.x < 0) this.x = canvas.width;
-                if (this.x > canvas.width) this.x = 0;
-                if (this.y < 0) this.y = canvas.height;
-                if (this.y > canvas.height) this.y = 0;
-            }
-            
-            draw() {
-                ctx.fillStyle = this.color;
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fill();
-            }
-        }
-        
-        // Create particles
-        function initParticles() {
-            particles = [];
-            const particleCount = Math.min(Math.floor(canvas.width * canvas.height / 10000), 100);
-            
-            for (let i = 0; i < particleCount; i++) {
-                particles.push(new Particle());
-            }
-        }
-        
-        // Draw particles and connections
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
-            for (let i = 0; i < particles.length; i++) {
-                particles[i].update();
-                particles[i].draw();
-                
-                // Draw connections between particles
-                for (let j = i; j < particles.length; j++) {
-                    const dx = particles[i].x - particles[j].x;
-                    const dy = particles[i].y - particles[j].y;
-                    const distance = Math.sqrt(dx * dx + dy * dy);
+                update() {
+                    this.x += this.speedX;
+                    this.y += this.speedY;
                     
-                    if (distance < 100) {
-                        ctx.beginPath();
-                        ctx.strokeStyle = `rgba(0, 255, 240, ${0.1 * (1 - distance / 100)})`;
-                        ctx.lineWidth = 0.5;
-                        ctx.moveTo(particles[i].x, particles[i].y);
-                        ctx.lineTo(particles[j].x, particles[j].y);
-                        ctx.stroke();
-                    }
+                    // Wrap around edges
+                    if (this.x < 0) this.x = canvas.width;
+                    if (this.x > canvas.width) this.x = 0;
+                    if (this.y < 0) this.y = canvas.height;
+                    if (this.y > canvas.height) this.y = 0;
+                }
+                
+                draw() {
+                    ctx.fillStyle = this.color;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                    ctx.fill();
                 }
             }
             
-            requestAnimationFrame(animate);
+            // Create particles
+            function initParticles() {
+                particles = [];
+                const particleCount = Math.min(Math.floor(canvas.width * canvas.height / 10000), 100);
+                
+                for (let i = 0; i < particleCount; i++) {
+                    particles.push(new Particle());
+                }
+            }
+            
+            // Draw particles and connections
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                
+                for (let i = 0; i < particles.length; i++) {
+                    particles[i].update();
+                    particles[i].draw();
+                    
+                    // Draw connections between particles
+                    for (let j = i; j < particles.length; j++) {
+                        const dx = particles[i].x - particles[j].x;
+                        const dy = particles[i].y - particles[j].y;
+                        const distance = Math.sqrt(dx * dx + dy * dy);
+                        
+                        if (distance < 100) {
+                            ctx.beginPath();
+                            ctx.strokeStyle = `rgba(0, 255, 240, ${0.1 * (1 - distance / 100)})`;
+                            ctx.lineWidth = 0.5;
+                            ctx.moveTo(particles[i].x, particles[i].y);
+                            ctx.lineTo(particles[j].x, particles[j].y);
+                            ctx.stroke();
+                        }
+                    }
+                }
+                
+                requestAnimationFrame(animate);
+            }
+            
+            initParticles();
+            animate();
         }
-        
-        initParticles();
-        animate();
+    }
+    
+    // Handle contact form submission
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            // Only handle the form if not on Netlify (which handles forms server-side)
+            if (!window.location.hostname.includes('netlify.app') && 
+                !window.location.hostname.includes('zerospectre.space')) {
+                e.preventDefault();
+                
+                // Get form data
+                const formData = new FormData(contactForm);
+                
+                // For local testing, simulate successful submission
+                console.log('Form submitted with data:', Object.fromEntries(formData));
+                
+                // Show success message or redirect
+                alert('Form submitted successfully! In production, this would redirect to the thank-you page.');
+                window.location.href = '/thank-you.html';
+            }
+            
+            // For deployed site, Netlify handles the form submission
+            // The form will automatically redirect to the thank-you page as specified in the action attribute
+        });
     }
 }

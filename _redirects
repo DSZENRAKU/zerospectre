@@ -1,4 +1,9 @@
-/* # Force HTTPS
-http://zerospectre.com/*    https://zerospectre.com/:splat    301!
-http://www.zerospectre.com/*    https://zerospectre.com/:splat    301!
-/*    https://zerospectre.com/:splat    301! */
+# Force HTTPS and canonical domain
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
