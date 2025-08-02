@@ -7,3 +7,1134 @@ http://zerospectre.com/*    https://zerospectre.space/:splat    301!
 http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
 https://zerospectre.com/*    https://zerospectre.space/:splat    301!
 https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://zerospectre.com/*    https://zerospectre.space/:splat    301!
+https://www.zerospectre.com/*    https://zerospectre.space/:splat    301!
+
+# Handle form submission redirect
+/thank-you    /thank-you.html    200
+http://zerospectre.space/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.space/*    https://zerospectre.space/:splat    301!
+
+# Handle old domain if applicable
+http://zerospectre.com/*    https://zerospectre.space/:splat    301!
+http://www.zerospectre.com/*
