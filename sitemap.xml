@@ -49,12 +49,15 @@
     <priority>0.8</priority>
   </url>
   <url>
+<<<<<<< HEAD
     <loc>https://zerospectre.space/backlinks.html</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
+=======
+>>>>>>> 7baa83e7bd7652cd222ca74979921587aa0cee69
     <loc>https://zerospectre.space/robots.txt</loc>
     <lastmod>2024-06-09</lastmod>
     <changefreq>yearly</changefreq>
