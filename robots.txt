@@ -11,5 +11,8 @@ Disallow: /thank-you.html
 User-agent: Googlebot
 Allow: /
 
+# Explicitly allow backlinks page for faster indexing
+Allow: /backlinks.html
+
 # Sitemap location
 Sitemap: https://zerospectre.space/sitemap.xml
